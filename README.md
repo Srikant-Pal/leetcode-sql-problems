@@ -11,3 +11,5 @@ s.year=first_sales.first_year;
 First i did (group by) by product_id and applied aggregation min(year)to get the product_id which were sold earliest.
 
 And then what i got the result from group by i considered this as 2nd table and joined with sales table to get the desired output.
+
+This approach we will only follow when i need columns name from other table
